@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.arking.vkstore.MainActivity">
+    <item
+        android:id="@+id/sendMessage"
+        android:orderInCategory="100"
+        android:title="Написать продавцу"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/delFavotire"
+        android:orderInCategory="100"
+        android:title="Убрать из избранное"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">VKStore</string>
+    <string name="action_settings">Settings</string>
+    <integer name="com_vk_sdk_AppId">5215466</integer>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

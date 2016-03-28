@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/mainImage"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Название"
+        android:id="@+id/productName"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/mainImage"
+        android:layout_toEndOf="@+id/mainImage"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/material_drawer_dark_background"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/productPrice"
+        android:layout_gravity="right"
+        android:textColor="@color/black_overlay"
+        android:layout_below="@+id/productName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+</LinearLayout>

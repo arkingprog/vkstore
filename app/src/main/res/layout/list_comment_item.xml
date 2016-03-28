@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/imageProfile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textColor="@color/black_overlay"
+
+        android:id="@+id/nameProfile"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageProfile"
+        android:layout_toEndOf="@+id/imageProfile" />
+
+    <TextView
+        android:textColor="@color/black_overlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/textComment"
+        android:layout_below="@+id/nameProfile"
+        android:layout_toRightOf="@+id/imageProfile"
+        android:layout_toEndOf="@+id/imageProfile" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_below="@+id/textComment"
+        android:layout_alignLeft="@+id/textComment"
+        android:layout_alignStart="@+id/textComment">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/dateComment"
+            android:textColor="@color/black_overlay"
+
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/countLike"
+            android:textColor="@color/black_overlay"
+
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ToggleButton
+            android:checked="false"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:text="New ToggleButton"
+            android:id="@+id/btnLike"
+            android:background="@drawable/check_like"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/countLike"
+            android:layout_toStartOf="@+id/countLike"
+            android:textOn=""
+            android:textOff=""
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </RelativeLayout>
+</RelativeLayout>

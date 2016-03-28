@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/catalog"
+            android:checked="false"
+            android:icon="@drawable/ic_folder"
+            android:title="Каталог магазинов" />
+
+        <item
+            android:id="@+id/favoriteStore"
+            android:checked="false"
+            android:icon="@drawable/ic_star"
+            android:title="Избранные магазины" />
+        <item
+            android:id="@+id/nav_messages"
+            android:checked="false"
+            android:icon="@drawable/ic_star"
+            android:title="Мои сообщения" />
+
+        <item
+            android:id="@+id/logout"
+            android:checked="false"
+            android:icon="@drawable/ic_logout"
+            android:title="Выход" />
+
+    </group>
+</menu>
